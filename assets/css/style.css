@@ -60,7 +60,7 @@ h2 {
 
 hr {
     border: 1px solid lightgrey;  
-    margin: 0px 30px 0px 30px; 
+    margin: 0px 30px; 
 }
 
 footer {
@@ -129,7 +129,7 @@ label {
     margin: 30px;
 }
 
-#profile-container, #portfolio-container, #contact-container {
+.main-containers {
     margin: 120px auto;
     width: 960px;
     border: 1px solid #dddddd;
@@ -200,5 +200,82 @@ button:focus {
 .sideborder {
     border-right: 1px inset lightgray;
     padding-right: 2px;
+}
+
+.portfolio-image {
+    float: left;
+    margin: 30px;
+}
+
+.image-container {
+  position: relative;
+  text-align: center;
+  color: white;
+  float: left;
+  width: 280px;
+  margin-right: 60px;
+}
+
+.text {
+    position: absolute;
+    z-index: 999;
+    background: #4aaaa5;
+    left: 30px;
+    top: 150px;
+    padding: 20px;
+    font-size: 24px;
+    width: 100%;
+    font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+@media screen and (max-width: 640px) {
+    h1 {
+        float: none;
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    ul {
+        float: none;
+        text-align: center;
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .main-containers {
+        width: 90%;
+        margin: 170px auto;
+
+    }
+
+    #contact-container {
+        width: 90%;
+        margin: 170px auto;
+    }
+
+    #profile-image {
+        float: none;
+        width: 89.5%;
+        height: auto;
+    }
+
+    .profile {
+        margin: 0px 30px;
+    }
+
+   .image-container {
+       width: 90%;
+       float: none;
+   }
+   
+    .portfolio-image {
+        float: none;
+        width: 90%;
+        height: auto;
+        margin: 30px;
+    }
+
+
 }
 
