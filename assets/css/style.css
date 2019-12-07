@@ -256,7 +256,7 @@ button:focus {
 
     #profile-image {
         float: none;
-        width: 89.5%;
+        width: 86%;
         height: auto;
     }
 
@@ -265,16 +265,23 @@ button:focus {
     }
 
    .image-container {
-       width: 90%;
+       width: 93%;
        float: none;
    }
    
     .portfolio-image {
         float: none;
-        width: 90%;
+        width: 93%;
         height: auto;
         margin: 30px;
     }
+
+    .text {
+        top: 65%;
+        width: 93%;
+    }
+
+
 
 
 }
