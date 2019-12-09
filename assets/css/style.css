@@ -230,6 +230,7 @@ button:focus {
 @media screen and (max-width: 640px) {
     
     h1 {
+
         float: none;
         width: 100%;  
         margin: 0;
@@ -237,6 +238,7 @@ button:focus {
     }
 
     ul {
+
         float: none;
         width: 100%;
         margin: 3% 0 3%;
@@ -244,35 +246,42 @@ button:focus {
     }
 
     .main-containers {
+
         margin: 29% auto;
         width: 94%;
     }
 
     #profile-image {
+
         float: none;
         width: 89%;
         
     }
 
     .profile {
+
         width: 89%;
     }
 
     #contact-container {
+
         margin: 30% auto;
     }
 
     .image-container {
+
         float: left;
         width: 89%;
     }
 
     .portfolio-image {
+
         width: 100%;
         margin: 6%;
     }
 
     .text {
+
         left: 0;
         left: 6%;
         bottom: 10%;
@@ -281,24 +290,51 @@ button:focus {
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) and  (min-width: 641px) {
 
     h1 {
+
         margin-left: 3%
     }
 
     ul {
+
         margin-right: 3%;
     }
 
     .main-containers {
 
         width: 94%;
-
-
     }
 
 }
+
+@media screen and (max-width: 980px) and (min-width: 769px) {
+
+    h1 {
+        margin-left: 6%
+    }
+
+    ul {
+        margin-right: 6%
+    }
+
+    .main-containers {
+
+        margin-left: 6%;
+        width: 60%;
+    }
+
+
+
+
+
+
+}
+
+
+
+
     
 
 
