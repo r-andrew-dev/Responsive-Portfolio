@@ -279,6 +279,27 @@ button:focus {
         top: 75%;
     }
 
+}
+
+@media screen and (max-width: 768px) {
+
+    h1 {
+        margin-left: 3%
+    }
+
+    ul {
+        margin-right: 3%;
+    }
+
+    .main-containers {
+
+        width: 94%;
+
+
+    }
+
+}
+    
 
 
 
