@@ -76,7 +76,6 @@ footer {
     color: white;
     overflow: hidden;
     border-top: 5px solid #4aaaa5;
-    margin-bottom: 15px;
 
 }
 
@@ -229,60 +228,57 @@ button:focus {
 }
 
 @media screen and (max-width: 640px) {
+    
     h1 {
         float: none;
-        width: 100%;
-        margin-left: 0;
-        text-align: center;
+        width: 100%;  
+        margin: 0;
+        text-align: center;  
     }
 
     ul {
         float: none;
-        text-align: center;
         width: 100%;
-        margin: 20px 0;
+        margin: 3% 0 3%;
+        text-align: center;
     }
 
     .main-containers {
-        width: 90%;
-        margin: 170px auto;
-
-    }
-
-    #contact-container {
-        width: 90%;
-        margin: 170px auto;
+        margin: 29% auto;
+        width: 94%;
     }
 
     #profile-image {
         float: none;
-        width: 86%;
-        height: auto;
+        width: 89%;
+        
     }
 
     .profile {
-        margin: 0px 30px;
+        width: 89%;
     }
 
-   .image-container {
-       width: 93%;
-       float: none;
-   }
-   
+    #contact-container {
+        margin: 30% auto;
+    }
+
+    .image-container {
+        float: left;
+        width: 89%;
+    }
+
     .portfolio-image {
-        float: none;
-        width: 93%;
-        height: auto;
-        margin: 30px;
+        width: 100%;
+        margin: 6%;
     }
 
     .text {
-        top: 65%;
-        width: 93%;
+        left: 0;
+        left: 6%;
+        bottom: 10%;
+        top: 75%;
     }
 
 
 
-
-}
 
