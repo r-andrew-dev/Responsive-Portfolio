@@ -304,7 +304,8 @@ button:focus {
 
     .main-containers {
 
-        width: 94%;
+        width: 95%;
+        margin: 18% auto;
     }
 
 }
@@ -322,7 +323,7 @@ button:focus {
     .main-containers {
 
         margin-left: 6%;
-        width: 60%;
+        width: 80%;
     }
 
 }
